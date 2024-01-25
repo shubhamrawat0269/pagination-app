@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.employee__section {
+  width: 96vw;
+  height: 80vh;
+
+  text-align: center;
+  margin: 1rem 0;
+}
+
+table {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+thead {
+  background-color: #198c60;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.btns {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.btns button {
+  padding: 5px 10px;
+  background-color: #198c60;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btns div {
+  background-color: #198c60;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
